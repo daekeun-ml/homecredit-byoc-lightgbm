@@ -1,0 +1,5 @@
+Exception during training: train() missing 1 required positional argument: 'params'
+Traceback (most recent call last):
+  File "./lightgbm/train_lightgbm.py", line 63, in train
+    valid_sets=valid_list
+TypeError: train() missing 1 required positional argument: 'params'
